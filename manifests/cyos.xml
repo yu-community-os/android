@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Obsolete Packages -->
+  <remove-project name="abl/tianocore/edk2" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/qcom/common" />
+  <remove-project name="device/qcom/sepolicy" />
+  <remove-project name="device/sample" />
+  <remove-project name="kernel/lk" />
+  <remove-project name="kernel/msm-4.4" />
+  <remove-project name="platform/abi/cpp" />
+  <remove-project name="platform/art" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/kati" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/jemalloc" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libnfc-nci" />
+  <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/audio"/>
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <remove-project name="platform/packages/apps/SnapdragonGallery" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr"/>
+  <remove-project name="platform/vendor/qcom-opensource/location"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
+  <remove-project name="platform/vendor/qcom/cobalt" />
+  <remove-project name="platform/vendor/qcom/cobalt_32" />
+  <remove-project name="platform/vendor/qcom/falcon_32"/>
+  <remove-project name="platform/vendor/qcom/falcon_64"/>
+  <remove-project name="platform/vendor/qcom/thorium_32"/>
+  <remove-project name="platform/vendor/qcom/thorium_64"/>
+  <remove-project name="platform/vendor/qcom/thulium"/>
+  <remove-project name="platform/vendor/qcom/titanium_32"/>
+  <remove-project name="platform/vendor/qcom/titanium_64"/>
+
+  <project path="android" name="android" remote="cyos" />
+  <project path="art" name="android_art" remote="cyos" />
+  <project path="bionic" name="android_bionic" remote="cyos" />
+  <project path="build" name="android_build" remote="cyos" />
+  <project path="build/kati" name="android_build_kati" remote="cyos" />
+  <project path="device/cyanogen/msm8916-common" name="android_device_cyanogen_msm8916-common" remote="cyos" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="cyos" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cyos" />
+  <project path="device/yu/jalebi" name="android_device_yu_jalebi" remote="cyos" />
+  <project path="device/yu/lettuce" name="android_device_yu_lettuce" remote="cyos" />
+  <project path="device/yu/tomato" name="android_device_yu_tomato" remote="cyos" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cyos" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cyos" />
+  <project path="external/jemalloc" name="android_external_jemalloc" remote="cyos" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="cyos" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="cyos" />
+  <project path="external/libpng" name="android_external_libpng" remote="cyos" />
+  <project path="external/skia" name="android_external_skia" remote="cyos" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="cyos" />
+  <project path="external/zlib" name="android_external_zlib" remote="cyos" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="cyos" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="cyos" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="cyos" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="cyos" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cyos" />
+  <project path="gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="cyos" />
+  <project path="gcc/linux-x86/arm-linux-android-4.9" name="android_gcc_linux-x86_arm-linux-android-4.9" remote="cyos" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cyos" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cyos" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="cyos" />
+  <project path="kernel/yu/msm8916" name="android_kernel_yu_msm8916" remote="cyos" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cyos" />
+  <project path="packages/apps/SnapdragonCamera" name="android_packages_apps_SnapdragonCamera" remote="cyos" />
+  <project path="packages/apps/SnapdragonGallery" name="android_packages_apps_SnapdragonGallery" remote="cyos" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cyos" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="cyos" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="cyos" />
+  <project path="system/bt" name="android_system_bt" remote="cyos" />
+  <project path="system/core" name="android_system_core" remote="cyos" />
+  <project path="system/extras" name="android_system_extras" remote="cyos" />
+  <project path="system/media" name="android_system_media" remote="cyos" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="cyos" />
+  <project path="system/vold" name="android_system_vold" remote="cyos" />
+  <project path="vendor/qcom/opensource/bluetooth" name="android_vendor_qcom_opensource_bluetooth" remote="cyos" />
+  <project path="vendor/volte" name="android_vendor_volte" remote="cyos" />
+  <project path="vendor/yu" name="proprietary_vendor_yu" remote="cyos" />
+
+</manifest>
